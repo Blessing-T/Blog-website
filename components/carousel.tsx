@@ -31,7 +31,7 @@ export default function Carousel() {
             <button
               key={index}
               onClick={() => setCurrent(index)}
-              className={`h-2 w-8 rounded-sm transition-all duration-300 ${
+              className={`h-1 w-8 rounded-sm transition-all duration-300 ${
                 current === index ? "bg-teal-500" : "bg-gray-300"
               }`}
               aria-label={`Go to slide ${index + 1}`}

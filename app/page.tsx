@@ -4,7 +4,7 @@ import EmblaCarousel from "@/components/banner";
 
 export default function Home() {
   return (
-    <main className="container mx-auto bg-white">
+    <main className="w-full mx-auto bg-white">
    
       <div className="w-full">
         <EmblaCarousel />

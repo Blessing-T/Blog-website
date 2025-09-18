@@ -29,25 +29,25 @@ const recommended = [
 
 export default function Sidebar() {
   return (
-    <aside className="w-1/3 bg-white border-r hidden md:block">
+    <aside className="w-1/3 bg-white border-r hidden md:block ml-5">
       <div className="mb-8 pt-5 bg-teal-400">
         
-        <div className="flex space-x-4 text-xl text-black justify-center">
-          <h3 className="text-sm text-gray-400 mb-4">FOLLOW:</h3>
+        <div className="flex space-x-4 text-xl justify-center">
+          <h3 className=" text-gray-200 mb-4 text-l">FOLLOW:</h3>
           <a href="#" className="hover:text-teal-500">
-            <FaTwitter className="text-gray-400 hover:text-white transition-colors duration-300" />
+            <FaTwitter className="text-gray-200 hover:text-white transition-colors duration-300 w-6 h-6" />
           </a>
           <a href="" >
-             <FaFacebook className="text-gray-400 hover:text-white transition-colors duration-300" />
+             <FaFacebook className="text-gray-200 hover:text-white transition-colors duration-300 w-6 h-6" />
           </a>
           <a href="">
-            <FaGooglePlusG className="text-gray-400 hover:text-white transition-colors duration-300" />
+            <FaGooglePlusG className="text-gray-200 hover:text-white transition-colors duration-300 w-6 h-6" />
           </a>
           <a href="">
-            <FaDribbble className="text-gray-400 hover:text-white transition-colors duration-300" />
+            <FaDribbble className="text-gray-200 hover:text-white transition-colors duration-300 w-6 h-6" />
           </a>
           <a href="">
-            <FaRss className="text-gray-400 hover:text-white transition-colors duration-300" />
+            <FaRss className="text-gray-200 hover:text-white transition-colors duration-300 w-6 h-6" />
           </a>
         </div>
       </div>
