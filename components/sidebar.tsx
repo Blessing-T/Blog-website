@@ -1,4 +1,4 @@
-// components/Sidebar.tsx
+
 import Image from "next/image";
 import { FaFacebook, FaTwitter, FaRss, FaGooglePlusG, FaDribbble } from "react-icons/fa";
 
